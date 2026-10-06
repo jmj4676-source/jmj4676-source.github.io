@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIAI</title><meta name="description" content="AIAI — 내 PC에서 실행하는 개인용 AI 비서">
+<style>
+:root{--ink:#1d2430;--navy:#17375e;--soft:#5d6675;--line:#dfe3e8;--bg:#fbfbf9}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;line-height:1.75;font-size:16px}
+.wrap{max-width:720px;margin:0 auto;padding:48px 24px 72px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:36px}
+header svg{width:40px;height:40px;color:var(--navy)}
+header a{color:var(--navy);font-weight:800;font-size:22px;text-decoration:none;letter-spacing:.02em}
+nav{margin-left:auto;display:flex;gap:18px;font-size:14px}
+nav a{color:var(--soft);font-weight:400;font-size:14px}
+nav a[aria-current]{color:var(--navy);font-weight:700}
+h1{font-size:30px;line-height:1.35;margin:0 0 12px;color:var(--navy)}
+h2{font-size:19px;margin:40px 0 8px;padding-top:20px;border-top:1px solid var(--line)}
+p,li{max-width:66ch}
+ul{padding-left:1.2em}
+li{margin:4px 0}
+.lead{font-size:18px;color:var(--soft);margin:0 0 8px}
+.meta{color:var(--soft);font-size:14px}
+table{border-collapse:collapse;width:100%;margin:8px 0;font-size:15px}
+th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:9px 8px 9px 0}
+th{color:var(--soft);font-weight:700;font-size:13px}
+code{font-size:13px;color:var(--soft)}
+.en{margin-top:48px;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:12px;font-size:15px}
+.en h2{border:0;padding:0;margin:0 0 6px;font-size:17px}
+a{color:var(--navy)}
+a:focus-visible{outline:2px solid var(--navy);outline-offset:3px}
+footer{margin-top:56px;color:var(--soft);font-size:13px}
+@media(max-width:520px){.wrap{padding:28px 18px 56px}h1{font-size:25px}nav{gap:12px}}
+</style>
+</head><body><div class="wrap">
+<header><svg viewBox="0 0 50 50" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M7 41 L19 9 L31 41" stroke="currentColor" stroke-width="5.5"/><path d="M19 41 L31 9 L43 41" stroke="currentColor" stroke-width="5.5" opacity=".55"/><path d="M12.5 30 L37.5 30" stroke="currentColor" stroke-width="5"/></g></svg><a href="./">AIAI</a><nav aria-label="페이지"><a href="./" aria-current="page">소개</a><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a></nav></header>
+<main>
+<h1>AIAI</h1>
+<p class="lead">내 PC에서 실행하는 개인용 AI 비서입니다.</p>
+<p>AIAI는 한 사람이 자기 컴퓨터에 설치해 쓰는 프로그램입니다. 사용자가 직접 로그인한 ChatGPT(OpenAI)·Claude(Anthropic) 구독 계정으로 질문에 답하고,
+사용자가 연결을 허락한 경우에 한해 Google 드라이브·Gmail·캘린더·스프레드시트의 내용을 참고합니다. 별도 서버나 다른 사용자가 없으며,
+판매하거나 공개 배포하는 서비스가 아닙니다.</p>
+<h2>Google 계정으로 하는 일</h2>
+<ul>
+<li>사용자가 물을 때 드라이브 파일과 메일을 찾아 읽고 답에 참고합니다.</li>
+<li>일정을 읽고, 사용자가 화면의 승인 버튼을 누른 일정만 등록하거나 고칩니다.</li>
+<li>사용자가 승인한 메일만 보내고, 승인한 경우에만 스프레드시트에 씁니다.</li>
+</ul>
+<p>자세한 내용은 <a href="privacy.html">개인정보처리방침</a>과 <a href="terms.html">이용약관</a>에 있습니다.</p>
+<section class="en" lang="en"><h2>About AIAI</h2>
+<p>AIAI is a personal AI assistant that a single user installs and runs on their own Windows PC. With the user's permission it reads the user's own
+Google Drive files, Gmail, Calendar and Sheets to answer the user's questions, and it sends email or changes calendar events and sheets only after the
+user approves each action on screen. There is no server operated by the developer and the app is not offered to the public.
+See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p></section>
+</main>
+<footer>AIAI · 개인용 프로그램 · 문의 <a href="mailto:여기에-연락-이메일">여기에-연락-이메일</a></footer>
+</div></body></html>
